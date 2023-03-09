@@ -10,6 +10,8 @@ public class p136SingleNumber {
 
         int result = 0;
 
+        //bit manipulation solution
+
         for(int i = 0; i < nums.length; i++) {
             result ^= nums[i];
         }
