@@ -13,6 +13,7 @@ public class p121BestTimeToBuyAndSellStock {
             currentMinPrice = Math.min(currentMinPrice, prices[i]);
             profit = Math.max(profit, prices[i] - currentMinPrice);
 
+
         }
         return profit;
     }
