@@ -18,6 +18,9 @@ public class p171ExcelSheetColumnNumber {
 
     }
 
+
+
+
     /* faster solution
     int result  = 0;
         for (int i = 0; i < columnTitle.length(); i++){
@@ -27,4 +30,6 @@ public class p171ExcelSheetColumnNumber {
 
         return result;
      */
+
+
 }
