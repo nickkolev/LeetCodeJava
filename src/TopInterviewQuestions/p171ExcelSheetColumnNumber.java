@@ -30,6 +30,4 @@ public class p171ExcelSheetColumnNumber {
 
         return result;
      */
-
-
 }
