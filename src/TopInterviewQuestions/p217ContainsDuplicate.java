@@ -23,4 +23,17 @@ public class p217ContainsDuplicate {
         return false;
     }
 
+    //second way - with sorting
+    public static boolean containsDuplicate2(int[] nums) {
+
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] == nums[i + 1]) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
