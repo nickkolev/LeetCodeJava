@@ -27,7 +27,7 @@ public class p70ClimbingStairs {
         }
     }
 
-    //DP
+    //DP - dynamic programming
     public int dynamicApproach(int n) {
         if (n <= 1) {
             return 1;
